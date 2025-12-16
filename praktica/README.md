@@ -98,8 +98,6 @@ cd praktica/praktica
   - Пароль: `admin`
   - Роль: `Admin`
 
-Рекомендуется после первого входа под `admin` изменить пароль через форму пользователей.
-
 ---
 
 ## SQL-скрипт создания базы данных
@@ -138,26 +136,5 @@ INSERT INTO Users (UserName, Password, Role) VALUES
 ```
 
 ---
-
-## Как выложить проект в свой GitHub (шаги для lokalного проекта)
-
-1. В корне репозитория (`c:\Users\Admin\source\repos\praktica`) выполнить в терминале:
-
-```bash
-git init
-git add .
-git commit -m "Initial version of WinForms service company app"
-```
-
-2. На GitHub под аккаунтом **`johanstt`** создать новый репозиторий, например `praktica` (без README, .gitignore и т.п.).
-3. Связать локальный репозиторий с GitHub и запушить:
-
-```bash
-git remote add origin https://github.com/johanstt/praktica.git
-git branch -M main
-git push -u origin main
-```
-
-После этого проект будет доступен в вашем репозитории `johanstt/praktica`.
 
 
